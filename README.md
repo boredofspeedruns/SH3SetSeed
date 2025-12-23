@@ -1,20 +1,40 @@
-# SH3 Set Seed (Silent Hill 3 RNG & HUD Mod)
+# SH3 Set Seed
+### Silent Hill 3 — RNG & HUD Enhancement Mod
 
-## Features
-
-- Adds an overlay with an onscreen timer for verification purposes.
-- Sets the Puzzle codes for randomly generated puzzles.
-- Reads settings from a simple `sh3setseed.ini` file.
-- Fixes Supply Key IGT bug.
-
-> ⚠️ This is a fan-made reverse-engineering project.  
-> Not affiliated with or endorsed by Konami. Use at your own risk.
+**SH3SS** introduces deterministic puzzle solutions, technical bug fixes, and a real-time HUD for run verification.
 
 ---
 
-## How to Install / How to Use
+## 🚀 Key Features
 
-Easy.
-1. Copy the d3d8.dll & sh3setseed.ini to your SILENT HILL 3 folder.
-2. Ensure that sh3setseed.ini has enabled set to 1.
-3. Enjoy!
+* **Real-Time HUD Overlay:** Includes an on-screen timer for speedrun verification and timing accuracy.
+* **Deterministic Puzzle Seeds:** Forces randomized puzzles to use consistent, pre-defined codes (see the Solutions table below).
+* **IGT Bug Fix:** Resolves the notorious **Supply Key In-Game Timer (IGT) bug**.
+* **Simplified Configuration:** Easy to edit `sh3setseed.ini` for enabling and disabling the mod.
+
+---
+
+## 🛠 Installation & Usage
+
+1.  **Extract Files:** Copy `d3d8.dll` and `sh3setseed.ini` into your main **SILENT HILL 3** installation directory.
+2.  **Configuration:** Open `sh3setseed.ini` and verify that `enabled=1` is set.
+3.  **Launch:** Run the game. The mod and overlay will load automatically.
+
+---
+
+## 🧩 Fixed Puzzle Solutions
+When the mod is active, the following codes will be used for randomized puzzles. Puzzles that use fixed solutions based on difficulty (such as the Hard difficulty Shakespeare Bookstore or Crematorium) remain unchanged.
+
+| Difficulty | Bookstore | Hospital Keypad | Hospital Clock | Crematorium |
+| :--- | :--- | :--- | :--- | :--- |
+| **Easy** | 2580 | 2589 | 0100 | *N/A* |
+| **Normal** | 2580 | 2589 | 0100 | 7012 |
+| **Hard** | 8352 | 2589 | 1200 | 9271 |
+
+---
+
+## ⚖️ Disclaimer
+> [!IMPORTANT]  
+> This is a fan-made reverse-engineering project. It is not affiliated with, maintained by, or endorsed by Konami. Use this software at your own risk.
+
+---
