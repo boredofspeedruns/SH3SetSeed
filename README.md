@@ -14,7 +14,7 @@
 * **Options Fix:** Auto applied options fix for fresh installs if main is enabled.
 * **Widescreen:** ThirteenAG's widescreen patch is applied through the ini.
 * **IGT Fix/Timer Display:** These are autoapplied if sh3setseed is enabled but they are also able to be applied independently.
-* 
+  
 
 ---
 
