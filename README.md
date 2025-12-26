@@ -11,6 +11,10 @@
 * **Deterministic Puzzle Seeds:** Forces randomized puzzles to use consistent, pre-defined codes (see the Solutions table below).
 * **IGT Bug Fix:** Resolves the notorious **Supply Key In-Game Timer (IGT) bug**.
 * **Simplified Configuration:** Easy to edit `sh3setseed.ini` for enabling and disabling the mod.
+* **Options Fix:** Auto applied options fix for fresh installs if main is enabled.
+* **Widescreen:** ThirteenAG's widescreen patch is applied through the ini.
+* **IGT Fix/Timer Display:** These are autoapplied if sh3setseed is enabled but they are also able to be applied independently.
+* 
 
 ---
 
