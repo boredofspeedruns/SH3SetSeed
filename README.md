@@ -1,5 +1,5 @@
 # SH3 Set Seed
-### Silent Hill 3 — RNG & HUD Enhancement Mod
+### Silent Hill 3 — RNG & Enhancement Mod
 
 **SH3SS** introduces deterministic puzzle solutions, critical bug fixes, and a real-time HUD designed for speedrun verification and technical stability.
 
